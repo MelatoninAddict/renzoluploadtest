@@ -18,7 +18,7 @@ st.write('You selected:', option)
 
 # df['date2'] = pd.to_datetime(df['times']) - pd.to_timedelta(7, unit='d')
 # df2 = df.groupby(['user', pd.Grouper(key='date2', freq='W-MON')])['hours'].sum().reset_index().sort_values('date2')
-df2 = "hi"
+df2 = "hi2"
 
 #Generate Page from selection
 if option == None:
